@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh -t -t ubuntu@3.35.139.226<<EOF
+ssh -t -t ubuntu@3.38.98.38<<EOF
     cd ~/jenkins-tutorial
     sudo -s	
     git pull origin main
